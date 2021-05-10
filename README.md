@@ -1,4 +1,4 @@
-# Restaurant Reviews - UTS
+# Restaurant Reviews - UAS
 
 ## Dataset
 Thanks to [Harshit Joshi on Kaggle](https://www.kaggle.com/hj5992/restaurantreviews)

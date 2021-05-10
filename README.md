@@ -21,7 +21,10 @@ To build a model to predict whether a review is positive or negative, following 
 Thanks to [Harshit Joshi on Kaggle](https://www.kaggle.com/hj5992/restaurantreviews)
 
 ## Requirements
-- Check [requirements.txt](https://github.com/jacenyang/restaurant-reviews-uas/blob/master/requirements.txt) and make sure those packages are installed.
+- Check [requirements.txt](https://github.com/jacenyang/restaurant-reviews-uas/blob/master/requirements.txt) and make sure those packages are installed. You can install the packages by running this command line.
+```sh
+pip freeze > requirements.txt 
+```
 - Download stopwords from ntlk by running this script.
 ```sh
 import nltk

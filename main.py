@@ -100,7 +100,7 @@ window.config(padx=20, pady=20)
 window.resizable(width=False, height=False)
 
 # Import button
-import_button = tk.Button(text="Import CSV File", width=18, command=import_csv)
+import_button = tk.Button(text="Import a CSV File", width=18, command=import_csv)
 import_button.pack()
 
 # Test size entry

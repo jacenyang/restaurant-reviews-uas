@@ -32,15 +32,22 @@ nltk.download('stopwords')
 ```
 
 ## Algorithms
+This is the result using 30% test size.
 - Multinomial Naive Bayes
 ```sh
-Accuracy score is 77.67%
-Precision score is 0.78
-Recall score is 0.77
-F1 score is 0.77
+Confusion matrix:
+[[119  33]
+ [ 34 114]]
+Accuracy score: 77.67%
+Precision score: 0.78
+Recall score: 0.77
+F1 score: 0.77
 ```
 - Bernoulli Naive Bayes
 ```sh
+Confusion matrix:
+[[115  37]
+ [ 32 116]]
 Accuracy score is 77.0%
 Precision score is 0.76
 Recall score is 0.78
@@ -48,6 +55,9 @@ F1 score is 0.77
 ```
 - Logistic Regression
 ```sh
+Confusion matrix:
+[[125  27]
+ [ 43 105]]
 Accuracy score is 76.67%
 Precision score is 0.8
 Recall score is 0.71

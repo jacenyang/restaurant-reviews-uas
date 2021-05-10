@@ -94,7 +94,7 @@ def train_and_test():
 
 # Setting up GUI
 window = tk.Tk()
-window.title("Restaurant Review Predictor")
+window.title("Review Predictor")
 window.config(padx=20, pady=20)
 window.resizable(width=False, height=False)
 

@@ -11,9 +11,6 @@ import nltk
 nltk.download('stopwords')
 ```
 
-## Screenshot
-![screenshot](screenshot.png)
-
 ## Algorithms
 - Multinomial Naive Bayes
 ```sh
@@ -36,3 +33,6 @@ Precision score is 0.8
 Recall score is 0.71
 F1 score is 0.75
 ```
+
+## Screenshot
+![screenshot](screenshot.png)

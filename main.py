@@ -89,6 +89,7 @@ def train_and_test():
     rs_value = round(score3, 2)
     f1s_value = round(score4, 2)
 
+    # Displaying all informations to label
     label.config(text=f"Confusion Matrix:\n{cm}\nAccuracy score: {as_value}%\nPrecision score: {ps_value}\nRecall score: {rs_value}\nF1 score: {f1s_value}")
 
 

@@ -1,5 +1,22 @@
 # Restaurant Reviews - UAS
 
+## Introduction
+The purpose of this project is to build a prediction model to predict whether a review on a restaurant is positive or negative. To do so, we will work on Restaurant Review dataset, we will load it into predicitve algorithms Multinomial Naive Bayes, Bernoulli Naive Bayes and Logistic Regression.
+
+## Explanation
+To build a model to predict whether a review is positive or negative, following steps are performed.
+- Importing Dataset
+- Preprocessing Dataset
+- Vectorization
+- Training and Classification
+- Analysis Conclusion
+
+## How to Use
+- Import a CSV file
+- Enter test size in percent (e.g. 30 or 30%)
+- Choose an algorithm to train and test the dataset
+- Click Train and Test
+
 ## Dataset
 Thanks to [Harshit Joshi on Kaggle](https://www.kaggle.com/hj5992/restaurantreviews)
 

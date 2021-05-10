@@ -73,7 +73,6 @@ def train_and_test():
     from sklearn.metrics import confusion_matrix
 
     cm = confusion_matrix(y_test, y_pred)
-    print("Confusion Matrix:\n", cm)
 
     # Accuracy, Precision, Recall and F1
     from sklearn.metrics import accuracy_score

@@ -23,7 +23,7 @@ Thanks to [Harshit Joshi on Kaggle](https://www.kaggle.com/hj5992/restaurantrevi
 ## Requirements
 - Check [requirements.txt](https://github.com/jacenyang/restaurant-reviews-uas/blob/master/requirements.txt) and make sure those packages are installed. You can install the packages by running this command line.
 ```sh
-pip freeze > requirements.txt 
+pip install -r requirements.txt 
 ```
 - Download stopwords from ntlk by running this script.
 ```sh
